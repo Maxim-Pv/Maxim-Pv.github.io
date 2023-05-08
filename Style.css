@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Muller';
+    src: url('fonts/MullerBold.woff2') format('woff2'),
+      url('fonts/MullerBold.woff') format('woff');
+    font-display: swap;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Muller';
+    src: url('fonts/MullerMedium.woff2') format('woff2'),
+      url('fonts/MullerMedium.woff') format('woff');
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container { 
+    max-width: 1900px;
+    height: 912px;
+    margin: 0 auto;
+
+    background: #0B1D26;
+}
+
+.main {
+    position: absolute;
+    width: 1280px;
+    height: 712.8px;
+    top: 100px;
+    left: 310px;
+}
+
+.arrow {
+    position: absolute;
+    width: 26px;
+    left: 150px;
+    top: 561px;
+}
+
+.left-side {   
+    width: 640px;
+    height: 713px;
+
+}
+
+.tagline {
+    position: absolute;
+    top: 125px;
+    left: 30px;
+    width: 580px;
+    height: 32px;
+
+}
+
+.num01 {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    
+    left: -100px;
+    top: 53px;
+    letter-spacing: 4.2px;
+    text-transform: uppercase;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 0px;
+    /* identical to box height, or 0% */
+    color: #FFFFFF;
+
+    opacity: 0.1;
+}
+
+.pseudo {
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    left: 0px;
+    top: 15px;
+
+    background: #F7DF1E;
+}
+
+.prof {
+    position: absolute;
+    width: 123px;
+    height: 33px;
+    left: 100px;
+    top: -1px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 4.2px;
+    text-transform: uppercase;
+
+    color: #F7DF1E;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.header {
+    position: absolute;
+    width: 415px;
+    height: 145px;
+    left: 30px;
+    top: 175px;
+
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    /* or 110% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.text {
+    position: absolute;
+    width: 572px;
+    height: 132px;
+    left: 30px;
+    top: 392px;
+
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 37px;
+    /* or 230% */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.learn-more {
+    position: absolute;
+    width: 126px;
+    height: 23px;
+    left: 30px;
+    top: 556px;
+    color: #F7DF1E;
+}
+
+
+.img {
+    position: absolute;
+    width: 480px;
+    height: 700px;
+    right: 30px;
+    top: 0px;
+
+}
+
+
+
+
